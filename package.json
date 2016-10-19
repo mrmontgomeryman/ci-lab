@@ -6,6 +6,7 @@
   "main": "server/index.js",
   "scripts": {
     "build": "browserify site/main.js -o site/bundle/bundle.js",
+		"test": "mocha site/spec/*.spec.js",
     "start": "node server"
   },
   "author": "Scott Logic",
